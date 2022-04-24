@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar-class">
+            <div class="nav-left">
+                <ul class="nav-class">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-class">
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="form">
+        <form action="" class="regform" id="reg" method="POST" enctype="multipart/form-data">
+            <div class="title" id="regtitle">Registration Form</div>
+            <div class="content">
+                <table class="reg">
+                    <tr>
+                        <td><label for="name">Name: </label></td>
+                        <td><input type="text" class="control" id="name" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Email: </label>
+                        <td><input type="email" class="control" id="email" name="email">
+                    </tr>
+                    <tr>
+                        <td><label for="name">Password: </label>
+                        <td><input type="password" class="control" id="passwd" name="passwd">
+                    </tr>
+                    <tr><td><button class="btn-submit" id="btnSubmit" name="btn-reg">Register</button></tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
